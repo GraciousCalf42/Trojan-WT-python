@@ -25,7 +25,7 @@ token="Paste here" #Your token
 ```
 And to work, you need the id of the text channel where the results of your commands will be sent (To copy the id, you need to enable "developer mode" in the discord settings, see youtube for more details):
 ```python
-channel="Paste here" #Your channel id
+channel=client.get_channel(Paste here) #Your channel id
 ```
 
  For almost all commands, there is a mandatory argument "admin", this is the "administrator password", it was created so that if you are not the only one controlling the virus, then only you could have access to the execution of these commands.
@@ -47,7 +47,7 @@ This is the password of administrator (In variable admp)
 "admin" - admin password
 >P.S:  I will no longer talk about the meanings of the "num" and "admin" arguments, since they are in almost all commands.
 ## /messagebox
-> /messagebox \<num; str\> \<title: str\> \<text: str\> \<num_of_msgbox: str\> \<admin: str\>
+> /messagebox \<num: str\> \<title: str\> \<text: str\> \<num_of_msgbox: str\> \<admin: str\>
 
 "title" - title of message box
 "text" - text of message box(Content)
@@ -77,7 +77,7 @@ Below is the meaning of each number:
 /messagebox create vbs script on C:\ProgramData
 And write vbs code to open message box
 ## /openfile_url
->/openfile_url \<num; str\> \<url: str\> \<admin: str\>
+>/openfile_url \<num: str\> \<url: str\> \<admin: str\>
 
 "urt" - url of file
 Example: https://random.site.com/photos/image.jpg
@@ -86,7 +86,7 @@ Example: https://random.site.com/photos/image.jpg
 
 Just power off pc
 ## /press_key
->/press_key \<numL str\> \<key; str\> \<admin: str\> 
+>/press_key \<num: str\> \<key: str\> \<admin: str\> 
 
 "key" - Key
 Example : "alt+tab" or "alt+f4" or "ctrl+alt+del" or "win"...
