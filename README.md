@@ -34,7 +34,7 @@ You can change the password in this variable:
 ```python
 admp="0000" #Password of administrator (string variable)
 ```
- Everything is almost ready, it remains only to download the necessary python libraries (They are written in requirements.txt)
+ Everything is almost ready, it remains only to download the necessary python libraries
 - - -
 # How to use commands
 ## What is "admin"?:
